@@ -17,6 +17,7 @@ License plate
 Location
 Brand
 Model
+Color
 Doors
 Fuel
 Type (SUV, Sport, Family)

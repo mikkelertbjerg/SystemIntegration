@@ -1,7 +1,7 @@
 # Business case
 
 En kunder ønsker igennem et frontend system at leje en bil. Kunden skal oplyse:
-**Customer
+**Customer**
 ```
 Id
 First name
@@ -9,7 +9,7 @@ Last name
 Drivers license
 Gender
 ```
-**Car (Hent data fra ekstern kilde?)
+**Car (Hent data fra ekstern kilde?)**
 ```
 Id
 License plate
@@ -19,7 +19,7 @@ Type (SUV, Sport, Family)
 Price (Range)
 Animals (Bool)
 ```
-**Location
+**Location**
 ```
 Id
 Address
@@ -27,7 +27,7 @@ City
 Zip code
 Country
 ```
-**Booking
+**Booking**
 ```
 Id
 Customer

@@ -4,7 +4,7 @@ En kunder ønsker igennem et frontend system at leje en bil. Kunden skal oplyse:
 * Name
 * Drivers license
 * Car (Hent data fra ekstern kilde?)
-´´´
+```
 Doors
 Fuel
 Type (SUV, Sport, Family)
@@ -12,7 +12,7 @@ Price (Range)
 Animals (Bool)
 License Plate
 Id
-´´´
+```
 
 *	Pickup location & time
 *	Delivery location & time

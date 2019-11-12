@@ -1,6 +1,7 @@
 # Business case
 
 En kunder ønsker igennem et frontend system at leje en bil. Kunden skal oplyse:
+
 **Customer**
 ```
 Id

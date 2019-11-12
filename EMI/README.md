@@ -14,6 +14,9 @@ Gender
 ```
 Id
 License plate
+Location
+Brand
+Model
 Doors
 Fuel
 Type (SUV, Sport, Family)

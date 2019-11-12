@@ -150,6 +150,15 @@
       <bpmn:messageEventDefinition />
     </bpmn:startEvent>
     <bpmn:userTask id="Task_0chaktj" name="Register User">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="firstName" />
+          <camunda:inputParameter name="lastName" />
+          <camunda:inputParameter name="driversLicense" />
+          <camunda:inputParameter name="gender" />
+          <camunda:inputParameter name="customerId" />
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
       <bpmn:incoming>SequenceFlow_0d9cwv2</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0h2xoi5</bpmn:outgoing>
     </bpmn:userTask>

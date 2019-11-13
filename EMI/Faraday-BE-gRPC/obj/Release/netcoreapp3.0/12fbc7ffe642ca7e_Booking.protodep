@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.0/Booking.cs \
+obj\Release\netcoreapp3.0/BookingGrpc.cs: Protos/Booking.proto

@@ -1,0 +1,87 @@
+syntax = "proto3";
+
+option csharp_namespace = "Faraday_BE_gRPC";
+
+package Book;
+
+service Booking {
+	rpc MakeNewBookingGRPC (EmptyRequest) returns (stream LocationRequest);
+	rpc CreateCarBookingGRPC (BookingRequest) returns (ComfirmReply);
+	rpc RegisterCustomerGRPC (CustomerRequest) returns (ComfirmReply);
+	rpc ShowAvailableCarsGRPC (LocationRequest) returns (stream CarReply);
+	
+}
+
+
+
+message LocationRequest {
+	int32 Id = 1;
+	string Address = 2;
+	string Zipcode = 3;
+	string City = 4;
+	string Country = 5;
+}
+message BookingRequest {
+	string name = 1;
+	string lastName = 2;
+	string driversLicense = 3;
+	string gender = 4;
+	string color = 5;
+	string model = 6;
+	int32 doors = 7;
+	string fueltype = 8;
+	string type = 9;
+	float price = 10;
+	bool animals = 11;
+	string brand = 12;
+	string dropoffadress = 13;
+	string dropoffcity = 14;
+	string dropoffzipcode = 15;
+	string dropoffcountry = 16;
+	string pickUpadress = 17;
+	string pickUpcity = 18;
+	string pickUpzipcode = 19;
+	string pickUpcountry = 20;
+	int32 CarLocationId = 21;
+	bool CarAvailablity = 22;
+	int32 pickupYear = 23;
+	int32 pickUpMonth = 24;
+	int32 PickUpDay = 25;
+	int32 PickUpHour = 26;
+	int32 pickUpMinute = 27;
+	int32 dropoffYear = 28;
+	int32 dropoffMonth = 29;
+	int32 dropoffDay = 30;
+	int32 dropoffHour = 31;
+	int32 dropoffMinute = 32;
+
+	
+}
+message EmptyRequest {
+	
+}
+message ComfirmReply {
+	bool confirm = 1;
+
+}message CustomerRequest {
+	int32 CustomerId = 1;
+	string FirstName = 2;
+	string LastName = 3;
+	string Gender = 4;
+	string DriversLicense = 5;
+}
+
+message CarReply {
+
+	int32 CarId = 1;
+	int32 Doors = 2;
+	string FuelType = 3;
+	string Type = 4;
+	string LicensePlate = 5;
+	float Price = 6;
+	bool AnimalsAllowed = 7;
+	string Color = 8;
+	string Brand = 9;
+	string Model = 10;
+}
+

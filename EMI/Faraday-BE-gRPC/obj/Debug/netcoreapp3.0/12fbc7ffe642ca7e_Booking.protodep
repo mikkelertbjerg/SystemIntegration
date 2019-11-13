@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/Booking.cs \
+obj\Debug\netcoreapp3.0/BookingGrpc.cs: Protos/Booking.proto

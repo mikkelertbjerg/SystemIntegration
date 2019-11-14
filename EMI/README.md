@@ -16,6 +16,8 @@ The main objective of this task is to get practical experience in implementing b
 
 ## Summary
 **Architecture**
+![Architecture](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Architecture.png)
+
 ### Features
 **_Technical_**
 

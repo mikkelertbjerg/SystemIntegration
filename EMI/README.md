@@ -21,7 +21,7 @@ The main objective of this task is to get practical experience in implementing b
 
 
 **Patterns**
-*File Transfer
+: *File Transfer
 *Command Message
 *Message
 *Facade

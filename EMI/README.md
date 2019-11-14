@@ -21,10 +21,10 @@ The main objective of this task is to get practical experience in implementing b
 
 
 **Patterns**
-: *File Transfer
-*Command Message
-*Message
-*Facade
+* File Transfer
+* Command Message
+* Message
+* Facade
 
 
 **_Business_**

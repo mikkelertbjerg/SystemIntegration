@@ -18,7 +18,14 @@ The main objective of this task is to get practical experience in implementing b
 **Architecture**
 ### Features
 **_Technical_**
-* To Be Announced
+
+
+**Patterns**
+*File Transfer
+*Command Message
+*Message
+*Facade
+
 
 **_Business_**
 * The customer is able to make a booking.
@@ -39,7 +46,7 @@ The main objective of this task is to get practical experience in implementing b
 
 # Business case
 
-En kunder ønsker igennem et frontend system at leje en bil. Kunden skal oplyse:
+A Customer wishes, through a frontend system, to rent a car, the customer needs to provide the following information:
 
 **Customer**
 ```
@@ -49,19 +56,20 @@ Last name
 Drivers license
 Gender
 ```
-**Car (Hent data fra ekstern kilde?)**
+**Car**
 ```
 Id
 License plate
-Location
+Pickup location
+Dropoff location
 Brand
 Model
 Color
 Doors
-Fuel
-Type (SUV, Sport, Family)
-Price (Range)
-Animals (Bool)
+Fuel type
+Car type 
+Price
+Animals
 ```
 **Location**
 ```
@@ -76,8 +84,8 @@ Country
 Id
 Customer
 Car
-Pickup(Location, Date, Time)
-Dropoff(Location, Date, Time)
+Pickup Location
+Dropoff Location
+Pickup Time
+Drop off Time
 ```
-
-Overvej at returnere PDF med brugerens indtastede information. Overvej ligeledes at exportere dataen fra DB til CSV filer.

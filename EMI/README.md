@@ -27,7 +27,11 @@ The main objective of this task is to get practical experience in implementing b
 * The invoice is generated as a pdf and given to the customer.
 
 ### Diagram
-**_To Be Announced_**
+**Database Diagram**
+![Database Diagram](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/DatabaseDiagram.png)
+
+**BPMN Diagram**
+![BPMN Diagram](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/BPMN_Diagram.png)
 
 ## Installation
 **_To Be Announced_**

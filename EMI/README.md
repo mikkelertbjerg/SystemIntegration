@@ -16,7 +16,7 @@ The main objective of this task is to get practical experience in implementing b
 
 ## Summary
 **Architecture**
-![Architecture](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Architecture.png)
+![Architecture](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Diagrams/Architecture.png)
 
 ### Features
 **_Technical_**
@@ -37,12 +37,15 @@ The main objective of this task is to get practical experience in implementing b
 
 ### Diagrams
 **BPMN Diagram**
+
 ![BPMN Diagram](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Diagrams/BPMN_Diagram.png)
 
 **Domain Model**
+
 ![Domain Model](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Diagrams/DomainModelBE.png)
 
 **Database Diagram**
+
 ![Database Diagram](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Diagrams/DatabaseDiagram.png)
 
 ## Installation

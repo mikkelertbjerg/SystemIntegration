@@ -35,12 +35,15 @@ The main objective of this task is to get practical experience in implementing b
 * The customer can sort which vehicle he/she wants to rent. *(Color, is animals allowed? Type such as Sedan, Sport and so on.)*
 * The invoice is generated as a pdf and given to the customer.
 
-### Diagram
-**Database Diagram**
-![Database Diagram](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/DatabaseDiagram.png)
-
+### Diagrams
 **BPMN Diagram**
-![BPMN Diagram](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/BPMN_Diagram.png)
+![BPMN Diagram](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Diagrams/BPMN_Diagram.png)
+
+**Domain Model**
+![Domain Model](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Diagrams/DomainModelBE.png)
+
+**Database Diagram**
+![Database Diagram](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Diagrams/DatabaseDiagram.png)
 
 ## Installation
 **_To Be Announced_**

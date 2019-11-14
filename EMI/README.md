@@ -13,13 +13,15 @@ The main objective of this task is to get practical experience in implementing b
 * **MySQL Database** *(hosted at Unoeuro.com)*
 * **RabbitMQ**
 * **MySQL Workbench CE** *(for filling dummy data into the table by using a .csv file)*
+* **IronPFD** *(For creating PDF files)*
 
 ## Summary
 **Architecture**
 ![Architecture](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Diagrams/Architecture.png)
 
 ### Features
-**_Technical_**
+
+**_This program features a backend powered by GRPC_**
 
 
 **Patterns**

@@ -51,7 +51,13 @@ The main objective of this task is to get practical experience in implementing b
 ![Database Diagram](https://github.com/mikkelertbjerg/SystemIntegration/blob/master/EMI/Diagrams/DatabaseDiagram.png)
 
 ## Installation
-**_To Be Announced_**
+**_Dependencies_**
+* RabbitMQ
+
+Run the "Program.cs" file.
+
+Ultimately when the services a running, a client could hook up to the gRPC service, and call the exposed methods.
+The Client needs to implement the "Booking.Proto" file in order to get the desired results.
 
 
 # Business case

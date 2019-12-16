@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>45</x>
+      <y>180</y>
+      <w>342</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>CarService - C#
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>63</x>
+      <y>387</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Models
+-
+Car</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>387</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Entities
+-
+Car</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>63</x>
+      <y>306</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Database
+--
+CRUD Car</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>63</x>
+      <y>225</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Controller
+-
+CRUD Car</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>45</x>
+      <y>513</y>
+      <w>342</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>LocationService - C#
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>63</x>
+      <y>720</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Models</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>720</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Entities</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>63</x>
+      <y>639</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Database</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>63</x>
+      <y>558</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Controller
+-
+GetSurveryLocation
+GetCustomerLocation
+GetCar</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>468</x>
+      <y>513</y>
+      <w>342</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>SurveryService - C#
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>486</x>
+      <y>720</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Models</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>648</x>
+      <y>720</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Entities</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>486</x>
+      <y>639</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Database</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>486</x>
+      <y>558</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Controller</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>468</x>
+      <y>180</y>
+      <w>342</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>CustomerService - Java
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>486</x>
+      <y>387</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Models
+-
+Customer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>648</x>
+      <y>387</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Entities
+-
+Customer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>486</x>
+      <y>306</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Database
+-
+CRUD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>486</x>
+      <y>225</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Controller
+-
+CRUD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>900</x>
+      <y>54</y>
+      <w>342</w>
+      <h>378</h>
+    </coordinates>
+    <panel_attributes>BookingService - C#
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>918</x>
+      <y>342</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Models
+-
+Booking</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>342</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Entities
+-
+Booking</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>918</x>
+      <y>261</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Database
+-
+CRUD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>918</x>
+      <y>180</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Controller
+-
+CRUD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>918</x>
+      <y>99</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>GUI
+-
+CRUD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>873</x>
+      <y>513</y>
+      <w>342</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>SurveryService - C#
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>891</x>
+      <y>720</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Models
+--
+Survery</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1053</x>
+      <y>720</y>
+      <w>144</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Entities
+--
+Survery</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>891</x>
+      <y>639</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Database
+--
+CRUD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>891</x>
+      <y>558</y>
+      <w>306</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Controller
+--
+CRUD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1296</x>
+      <y>45</y>
+      <w>432</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>PickupDropoffService - C#
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1314</x>
+      <y>171</y>
+      <w>405</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Models
+-
+Car
+Location</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1314</x>
+      <y>90</y>
+      <w>405</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Controller
+-
+List&lt;Map&lt;Car, Location&gt;&gt;GetNearestPickupLocations(Location, Car)
+List&lt;Location&gt;GetNearestDropOffLocation(Location)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
